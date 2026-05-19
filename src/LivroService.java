@@ -64,7 +64,7 @@ public class LivroService {
     public void listar(){
         for (int i = 0; i < this.livros.size(); i++) {
             IO.println("Indice: " + i);
-            IO.print(this.livros.get(i).toString());
+            IO.println(this.livros.get(i).toString());
         }
     }
 

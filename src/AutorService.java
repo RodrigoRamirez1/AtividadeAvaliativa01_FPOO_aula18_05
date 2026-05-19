@@ -48,7 +48,7 @@ public class AutorService {
     public void listar(Livro livro){
         for (int i = 0; i < livro.getAutores().size(); i++) {
             IO.println("Indice: " + i);
-            IO.print(livro.getAutores().get(i).toString());
+            IO.println(livro.getAutores().get(i).toString());
         }
     }
 
