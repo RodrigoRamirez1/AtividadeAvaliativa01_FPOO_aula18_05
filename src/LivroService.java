@@ -39,7 +39,7 @@ public class LivroService {
                     this.editar();
                     break;
                 case 4:
-                    this.editar();
+                    this.listar();
                     break;
                 case 0:
                     break;
